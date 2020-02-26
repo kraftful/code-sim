@@ -1,0 +1,17 @@
+{
+  "name": "code-sim",
+  "version": "1.0.0",
+  "description": "Minimal GraphQL server for the Kraftful full-stack code sim",
+  "main": "index.js",
+  "repository": "https://github.com/kraftful/code-sim",
+  "author": "Nicky Leach <nicky@kraftful.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.10.1",
+    "graphql": "^14.6.0"
+  }
+}
